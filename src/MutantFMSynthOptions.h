@@ -9,7 +9,7 @@
 //#undef SWITCH_TYPE_NORMALLY_CLOSED
 
 //  if your switches are NORMALLY CLOSED, include this line and comment out the #undef above
-#define SWITCH_TYPE_NORMALLY_CLOSED
+//#define SWITCH_TYPE_NORMALLY_CLOSED
 
 
 
@@ -18,7 +18,7 @@
 // added compile options to reduce compiled image size to fit into boards with larger bootloaders, or using different compilers such as Arduino IDE
 // uncomment the below to reduce the image size by 2KB
 
-//#define COMPILE_SMALLER_BINARY
+#define COMPILE_SMALLER_BINARY
 
 
 
